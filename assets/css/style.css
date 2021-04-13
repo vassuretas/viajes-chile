@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
+
+
+body{
+	font-family: 'Cabin', sans-serif;
+    background-color: #000000;
+
+}
+
+ /*Inicio CSS Nav*/
+
+.navscroll {
+    background-color: transparent;
+    color:#000000;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll.black {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+a:-webkit-any-link {
+    color: white;
+}
+
+.navbar-brand img{
+    max-width: 8%;
+}
+
+
+/* Medias para controlar tamañao del logo*/
+            @media only screen and (max-width: 768px) {
+
+                        .navbar-brand{
+                        max-width: 50%;
+                    }
+
+                        .navbar-brand img{
+                        max-width: 16%;
+                    }
+
+                    }
+
+            @media only screen and (max-width: 568px) {
+
+                        .navbar-brand{
+                        max-width: 50%;
+                    }
+
+                        .navbar-brand img{
+                        max-width: 20%;
+                    }
+
+                    }
+
+h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 0 0;
+}
+
+/*fin dde CSS Nav*/
+
+
+h2{
+    color:#ffffff;
+	font-weight: 400;
+	font-size: 2.5rem;
+	display: inline-block;
+	border-bottom: 1px solid #17a2b8;
+	padding-bottom: 2rem;
+}
+
+h3{
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+h4{
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.card-img-top{
+    max-height: 10rem;
+    width: 100%;
+    object-fit: cover; 
+
+}
+ 
+.card p {
+    color:#ffffff;
+    font-weight: 400;
+    margin-top: 1rem;
+} 
+
