@@ -2,12 +2,29 @@ $(function () {
 
 // transcision para fondo de nav
 	$(window).scroll(function(){
-         if ($(this).scrollTop() > 100) {
+         if ($(this).scrollTop() > 200) {
           $('.navscroll').addClass("black");
          } else {
           $(".navscroll").removeClass("black");
          }
       });
+
+// scrool smoth
+
+		 $("a").click(function(event){
+		 		if (this.hash !== ""){
+		 		 event.preventDefault();
+
+			var gato = this.hash;
+
+			$("html, body").animate({
+				scrollTop: $(gato).offset().top
+			}, 800, function(){
+				window.location.hash = gato;
+			});
+		}
+
+		 });
 
 
   // $('[data-toggle="tooltip"]').tooltip()
@@ -52,4 +69,4 @@ $(function () {
 
 
 
-})
+});
