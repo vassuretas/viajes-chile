@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
 	font-family: 'Cabin', sans-serif;
@@ -33,8 +36,12 @@ a:-webkit-any-link {
 }
 
 
-/* Medias para controlar tamañao del logo*/
+/* Medias para controlar tamañao del logo y fondo*/
             @media only screen and (max-width: 768px) {
+
+                         .navbar{
+                        background-color: rgba(0,0,0,0.9);
+                    }
 
                         .navbar-brand{
                         max-width: 50%;
@@ -48,6 +55,10 @@ a:-webkit-any-link {
 
             @media only screen and (max-width: 568px) {
 
+                       .navbar{
+                        background-color: rgba(0,0,0,0.9);
+                    }
+
                         .navbar-brand{
                         max-width: 50%;
                     }
@@ -57,6 +68,7 @@ a:-webkit-any-link {
                     }
 
                     }
+
 
 h1{
     font-weight: 700;
@@ -89,6 +101,16 @@ h4{
     font-size: 3rem;
 }
 
+.card-qs {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
 .card-img-top{
     max-height: 10rem;
     width: 100%;
@@ -102,22 +124,58 @@ h4{
     margin-top: 1rem;
 } 
 
-/* iconos footer*/
+/*Seccion Pagos*/
+
+.seccion-pagos {
+    background-color: #212529;
+    padding: 3.625rem 0 3.625rem 0;
+}
+
+.seccion-pagos p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 2rem 0 0;
+}
+
+.seccion-pagos i{
+    color: #ffffff;
+    margin-left: 1rem;
+}
+
+
+
+/* iconos hover*/
+/*iconos Quienes somos*/
+.fa-plane-departure:hover {
+    color: black;
+    transition: color 500ms;
+}
+.fa-hotel:hover {
+    color: black;
+    transition: color 500ms;
+}
+.fa-route:hover {
+    color: black;
+    transition: color 500ms;
+}
+
+/*icnons footer*/
 
 .fa-github-square:hover {
     color: black;
-    transition: color 300ms;
+    transition: color 500ms;
 }
 
 .fa-linkedin:hover {
     color: black;
-    transition: color 300ms;
+    transition: color 500ms;
 }
 .fa-facebook-square:hover {
     color: black;
-    transition: color 300ms;
+    transition: color 500ms;
 }
 .fa-twitter-square:hover {
     color: black;
-    transition: color 300ms;
+    transition: color 500ms;
 }
