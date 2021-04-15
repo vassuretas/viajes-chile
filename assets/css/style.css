@@ -40,9 +40,13 @@ a:-webkit-any-link {
             @media only screen and (max-width: 768px) {
 
                          .navbar{
-                        background-color: rgba(0,0,0,0.9);
+                        background-color: rgba(0,0,0,0.6);
                     }
 
+                    .nav-link{
+                        color: #ffffff;
+                        font-size: 1rem;
+                    }
                         .navbar-brand{
                         max-width: 50%;
                     }
@@ -56,8 +60,14 @@ a:-webkit-any-link {
             @media only screen and (max-width: 568px) {
 
                        .navbar{
-                        background-color: rgba(0,0,0,0.9);
+                        background-color: rgba(0,0,0,0.6);
                     }
+                    
+                    .nav-link{
+                        color: #ffffff;
+                        font-size: 1rem;
+                    }
+                       
 
                         .navbar-brand{
                         max-width: 50%;
