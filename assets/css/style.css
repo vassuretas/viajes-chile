@@ -27,9 +27,9 @@ body{
     font-size: 1rem;
 }
 
-a:-webkit-any-link {
+/*a:-webkit-any-link {
     color: white;
-}
+}*/
 
 .navbar-brand img{
     max-width: 8%;
@@ -40,10 +40,10 @@ a:-webkit-any-link {
             @media only screen and (max-width: 768px) {
 
                          .navbar{
-                        background-color: rgba(0,0,0,0.6);
+                        background-color: rgba(0,0,0,0.9);
                     }
 
-                    .nav-link{
+                        .nav-link{
                         color: #ffffff;
                         font-size: 1rem;
                     }
@@ -60,7 +60,7 @@ a:-webkit-any-link {
             @media only screen and (max-width: 568px) {
 
                        .navbar{
-                        background-color: rgba(0,0,0,0.6);
+                        background-color: rgba(0,0,0,0.9);
                     }
                     
                     .nav-link{
