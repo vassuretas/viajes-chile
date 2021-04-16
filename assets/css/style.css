@@ -29,9 +29,9 @@ body{
     font-size: 1rem;
 }
 
-/*a:-webkit-any-link {
+a:-webkit-any-link {
     color: white;
-}*/
+}
 
 .navbar-brand img{
     max-width: 8%;
